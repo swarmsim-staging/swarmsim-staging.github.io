@@ -9,12 +9,12 @@ self.addEventListener('install', () => {
 
   // Clear the cache from that broken version.
   caches.keys().then(function (cachesNames) {
-    console.log('delete caches'+cachesNames)
+    //console.log('delete caches'+cachesNames)
     return Promise.all(cachesNames.map(function (cacheName) {
       console.log('delete cache'+cacheName)
       return caches.delete(cacheName)//.then(function () {
     }))
   })
-  .then(function(){console.log('all caches deleted')})
+  //.then(function(){console.log('all caches deleted')})
   .catch(function(e){console.warn('cache delete failed', e)})
 })
