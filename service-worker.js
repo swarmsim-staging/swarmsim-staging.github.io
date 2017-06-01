@@ -13,5 +13,5 @@ self.addEventListener('install', () => {
       console.log('delete cache'+cachename)
       return caches.delete(cacheName)//.then(function () {
     }))
-  });
-}).then(function(){console.log('all caches deleted')});
+  }).then(function(){console.log('all caches deleted')});
+})
