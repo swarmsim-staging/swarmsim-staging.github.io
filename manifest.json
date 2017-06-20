@@ -1,6 +1,6 @@
 {
   "name": "Swarm Simulator",
-  "short_name": "Swarmsim",
+  "short_name": "Swarm Simulator",
   "description":"An incremental game. Starting with just a few larvae and a small pile of meat, grow a massive swarm of giant bugs.",
   "display":"standalone",
   "icons": [{
@@ -50,6 +50,10 @@
     "src":"icon-64x64.png",
     "type": "image/png",
     "sizes": "64x64"
+  }, {
+    "src":"icon-72x72.png",
+    "type": "image/png",
+    "sizes": "72x72"
   }, {
     "src":"icon-96x96.png",
     "type": "image/png",
